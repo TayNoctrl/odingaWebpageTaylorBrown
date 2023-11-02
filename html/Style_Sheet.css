@@ -1,0 +1,692 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.nav{
+	padding-bottom: 50px;
+}
+.nav ul{
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  
+	}
+	
+.nav li{
+		float: left;
+	}
+.nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}	
+
+.nav li a:hover:not(.active) {
+  background-color: #ADCEB9;
+}
+
+.nav .active {
+  background-color: #E9C266;
+  color:black;
+}
+	
+
+
+	body{
+		margin:0;
+		
+		background-color:#FCFCEF;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.2em;
+		
+	}
+	
+	.center{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		
+
+	}
+	
+	.left{
+		
+		float: left;
+		padding-right: 20px;
+		padding-top:20px;
+		
+	}
+	
+	.right{
+		
+		float: right;
+		padding-left: 20px;
+		padding-top:20px;
+		
+	}
+	
+	
+	
+.heading{
+	font-size: 1.5em;
+}
+	
+	
+	
+	
+	
+	h2{
+		font-size: 2.5em;
+	}
+	h1 {
+		color: #F5F1F1;
+		font-family:'Roboto', sans-serif,serif, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 48px;
+	}
+	p{
+		font-family:'Roboto', sans-serif,serif, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 1.2em;
+	}
+	/*header section style begins*/
+	header{
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom: 5px;
+		background-color:#FCFCEF;
+		overflow: auto;
+		
+	}
+	.cover img{
+		float: left;
+		width: 60%;
+		padding-right: 15px;
+		
+	}
+	
+	.cover other {
+		position: relative;
+		top: 18px;
+		left: 10px;
+		color: black;
+		
+	}
+	
+	h1{
+		color: black;
+	}
+	
+
+	
+	
+/*Header section style ends*/
+	
+/*Page 1 style begins*/
+	.Pg1Text{
+		
+		text-align: justify;
+	}
+	
+	.page1{
+		margin-left: 150px;
+		margin-right: 185px;
+		padding-top: 20px;
+	    padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#FCFCEF;
+		overflow: auto;
+	}
+/*Page 1 style ends*/
+
+/*Tone style begins*/
+	
+.tone img{
+	width:60%;
+}
+	.tone {
+		
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: auto;
+		background-color:#E9C266;
+	}
+
+.Tcontent{
+	margin-left: 185px;
+	margin-right: 185px;
+		
+}
+	.text{
+		text-align: justify;
+		
+	}
+	
+	
+	
+	
+	
+/*Tone 2 style ends*/
+
+/*Readability and Scale style begins*/
+	.Page2{
+		
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#ADCEB9;
+		overflow: auto;
+	}
+	.parent{
+		margin-left: 185px;
+		margin-right: 185px;
+		border:1px;
+		text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.child{
+		float: left;
+		width: 50%;
+		
+		clear: right;
+
+	}
+	
+	.red{
+		margin-right: 10%;
+	}
+/*Readability and Scale style ends*/
+	
+/*Combining Typefaces style begins*/
+	.Page3{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#E9C266;
+		overflow: auto;
+		text-align: justify;
+	}
+.P3content{
+	margin-left: 185px;
+	margin-right: 185px;
+}
+	
+	.List{
+		border: 2px solid black;
+		background-color:#FCFCEF;
+	}
+	
+	.List li{
+		margin: 10px;
+	}
+	
+	.List ul{
+		font-family:'Roboto', sans-serif,serif, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		text-align: justify;
+		font-size: 1.1em;
+		background-color:#FCFCEF;
+	}
+	
+/*Combining Typefaces style ends*/
+
+/*Lisencing  style begins*/
+	.Licensing{
+	
+		background-color:#ADCEB9;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		
+	}
+.LContent{
+	margin-left: 185px;
+	margin-right: 185px;
+}
+	
+/*Lisencing  style ends*/
+/*Wrapping Up  style begins*/
+	.Wrap{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		background-color:#FCFCEF;
+	}
+
+.Wcontent{
+	margin-left: 185px;
+	margin-right: 185px;
+}
+
+
+/*Wrapping Up  style ends*/
+	
+	h3{
+		font-size: 2em;
+	}
+	
+
+/*Principles page styles*/
+
+/*Hierarchy section style begins*/
+.Hierarchy{
+	
+	background-color: #ADCEB9;
+	
+	
+}
+
+.Hierarchy h2{
+  margin-left: 185px;
+  margin-right: 185px;
+	padding-top: 20px;
+	
+}
+.Hcontent{
+  margin-left: 185px;
+  margin-right: 185px;
+  align-items: center;
+  display: inline-flex;
+ padding-bottom: 20px;
+
+}
+
+.Himage{
+	width: 60%; 
+	padding-right: 20px;
+}
+
+.Htext{
+	width: 40%;
+	text-align: justify;
+}
+
+/*Hierarchy section style ends*/
+
+/*Balance, Alignment, Emphasis section style begins*/
+
+.BAE{
+	background-color: #E9C266;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.Group1{
+  margin-left: 185px;
+  margin-right: 185px;
+}
+
+.BTitle{
+	background-color: #FCFCEF;
+	border-radius: 50px;
+	text-align: center;
+	border: 5px solid black;
+	margin-bottom: 10px;
+}
+.BalanceContent{
+	display: none;
+	text-align: justify;
+}
+
+.BTitle:hover + .BalanceContent{
+  display: block;
+  color: black;
+}
+
+/*If you ever want to make 3 even columns use a grid and make the direction a column. It doesn't work here bc there is to much content in each column it looks wierd.
+.Group1{
+  
+  display: grid;
+  grid-auto-flow: column;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+	
+}
+
+*/
+
+
+
+
+	
+
+/*Balance, Alignment, Emphasis section style ends*/
+
+/*Proportion section style begins*/
+.Proportion h2{
+  margin-left: 185px;
+  margin-right: 185px;
+}
+.Proportion_Content{
+  margin-left: 185px;
+  margin-right: 185px;
+  align-items: center;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.Proportion_img{
+	width: 30%;  
+	border: 5px solid black;
+	margin-right: 70px;
+}
+
+.Proportion_text{
+	width: 50%;
+	text-align: justify;
+	
+	
+}
+
+
+/*Movement style section* begins*/
+
+.Movement{
+	margin-left: 185px;
+    margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Movement_text{
+	text-align: justify;
+}
+.Movement_Link{
+	background-color: black;
+	color: white;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-decoration: none;
+	border-radius: 50px;
+	float: right;
+}
+
+.Movement_Link:hover{
+	background-color: #E9C266;
+	color:blue;
+}
+
+/*Movement style section* ends*/
+
+/*Negative style section* begins*/
+
+.NSpace{
+	margin-left: 185px;
+    margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Negative_text{
+	text-align: justify;
+}
+
+.NSpace a:link{
+	color:darkgreen;
+	text-decoration: none;
+}
+
+.NSpace a:visited{
+	color:purple;
+	
+}
+/*Negative style section* ends*/
+
+/*Contrast style section* begins*/
+
+.Contrast{
+	background-color:#ADCEB9;
+}
+
+.Contrast_content{
+	margin-left: 185px;
+    margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Contrast_text{
+	text-align: justify;
+}
+
+
+/*Contrast style section* ends*/
+
+/*Repitiion and Variety style section* begins*/
+.RandV{
+		
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#E9C266;
+		overflow: auto;
+	}
+
+
+
+	.parent2{
+		margin-left: 185px;
+		margin-right: 185px;
+		border:1px;
+		text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.child2{
+		float: left;
+		width: 50%;
+		
+		clear: right;
+
+	}
+	
+	.yellow2{
+		margin-right: 10%;
+	}
+/*Repitiion and Variety style section* ends*/
+
+/*Unity style section* begins*/
+	
+
+.Unity_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.List2{
+	border: 2px solid black;
+	background-color:#ADCEB9;
+}
+	
+/*Unity style section* ends*/
+
+/*Apply style section* begins*/
+.Apply{
+	margin-left: 185px;
+	margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Apply_content{
+	text-align: center;
+}
+/*Apply style section* ends*/
+
+/*Color page section begins*/
+
+/*Pallette style section begins*/
+.palette{
+	
+  background: linear-gradient(
+    to right,
+    #E9C266 0%,
+    #E9C266 50%,
+    #ADCEB9 50%,
+    #ADCEB9 100%
+  );
+   display: flex;
+  
+  
+}
+
+.Pallette_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	height: 100%;
+	/*width: 50%;*/
+	align-items: center;
+	display: inline-flex;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.Pallete_text {
+	width:50%;
+	
+}
+.Pallete_text p{
+	text-align: justify;
+	padding-right:5%; 
+}
+.Pallete_img{
+	width:50%;
+	padding-left:5%; 
+	
+}
+
+
+
+/*Pallette style section ends*/
+
+/*Inspo style section begins*/
+
+.Inspo_content{
+	margin-left: 185px;
+	margin-right: 185px;
+}
+
+.Inspo_text{
+	text-align: justify;
+}
+
+/*Inspo style section ends*/
+
+/*App style section begins*/
+
+.application{
+	
+  background: linear-gradient(
+    to right,
+    #ADCEB9 0%,
+    #ADCEB9 50%,
+    #E9C266 50%,
+    #E9C266 100%
+  );
+   display: flex;
+  
+  /* #E9C266*/
+}
+
+.App_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	height: 100%;
+	/*width: 50%;*/
+	align-items: center;
+	display: inline-flex;
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.App_text {
+	width:50%;
+	padding-left: 10%;
+}
+.App_text p{
+	text-align: justify;
+}
+.App_img{
+	width:50%;
+	
+}
+
+
+
+/*App style section ends*/
+
+/*Tip style begins*/
+
+
+.tip_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Tip style ends*/
+
+/*Final style begins*/
+
+.final_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	 padding-top: 20px;
+  padding-bottom: 20px;
+	
+	text-align: center;
+	
+}
+
+/*Final style ends*/
+
+
+/*Color page section ends*/
+
+/*About Page section style*/
+
+.About_list li{
+	list-style: lower-roman;
+}
+
+.About_content{
+	margin-left: 185px;
+	margin-right: 185px;
+	
+	text-align: justify;
+}
+figcaption{
+	font-size: 1rem;
+	
+}
+/*Proportion section style ends*/
+	
+	footer{
+	background-color:black;
+	color:white;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;		
+	}
